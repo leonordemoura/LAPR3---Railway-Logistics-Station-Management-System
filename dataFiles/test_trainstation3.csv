@@ -1,0 +1,17 @@
+country,time_zone,time_zone_group,station,latitude,longitude,is_city,is_main_station,is_airport
+FR,"('Europe/Paris',)",CET,Chateau-Arnoux-St-Auban,44.08179,6.001625,True,False,False
+FR,"('Europe/Paris',)",CET,Chateau-Arnoux-St-Auban,44.0615651,5.9973734,False,True,False
+FR,"('Europe/Paris',)",CET,Chateau-Arnoux Mairie,44.063863,6.011248,False,False,False
+FR,"('Europe/Paris',)",CET,Digne-les-Bains,44.35,6.35,True,False,False
+FR,"('Europe/Paris',)",CET,Digne-les-Bains,44.088710133980605,6.222982406616211,False,True,False
+FR,"('Europe/Paris',)",CET,La Crau,43.1449352,6.0687663,False,False,False
+FR,"('Europe/Paris',)",CET,Aire-sur-l'Adour,43.703854,-0.258269,True,False,False
+FR,"('Europe/Paris',)",CET,Cagnes-sur-Mer,43.65813,7.14864,False,True,False
+FR,"('Europe/Paris',)",CET,Menton,43.776486,7.504349,True,False,False
+FR,"('Europe/Paris',)",CET,Menton,43.774444,7.4933,False,True,False
+FR,"('Europe/Paris',)",CET,Menton-Garavan,43.785202,7.517297,False,False,False
+FR,"('Europe/Paris',)",CET,,-90,180,True,False,False
+,"('Europe/Paris',)",CET,Vievola,-90,100,False,False,False
+PT,"('Europe/Lisbon',)",,Lisboa Santa Apolonia,38.71387,-9.122271,False,True,False
+PT,"('Europe/Lisbon',)",WET/GMT,Lisboa,38.71387,-9.122271,True,False,False
+PT,"('Europe/Lisbon',)",WET/GMT,Lisboa Oriente,38.71387,-9.122271,False,False,False

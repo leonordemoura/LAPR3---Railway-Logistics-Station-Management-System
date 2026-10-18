@@ -1,0 +1,21 @@
+# Users (name,username,password_plaintext,key)
+USER:Admin,admin,TESTE,3,1
+USER:Operator1,op1,TESTE,3,0
+
+# Sensor Config (type,buffer_length,median_window)
+SENSOR:TEMP,15,5
+SENSOR:HUM,15,7
+
+# Tracks (id,status,train_id)
+TRACK:1,0,0
+TRACK:2,0,0
+TRACK:3,1,101
+
+# Trains
+TRAIN:101
+TRAIN:102
+
+# Logs (id,username,action,timestamp)
+LOG:1,admin,LOGIN,2024-12-10T10:30:00
+LOG:2,admin,ASSIGN_TRACK,2024-12-10T10:35:00
+LOG:3,op1,SET_TRACK_FREE,2024-12-10T11:00:00
