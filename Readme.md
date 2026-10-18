@@ -1,55 +1,76 @@
-# LAPR3 DB Access example
+<div align="center">
 
-This example works for JDK 8 with the following Oracle dependency:
+  <!-- Railway Animated Header -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A6E3A1&center=true&vCenter=true&width=600&lines=%F0%9F%9A%82+LAPR3+-+Railway+Logistics+System;%26+Station+Management+System;Built+with+Java%2C+PL%2FSQL%2C+C+%26+Assembly;Raspberry+Pi+Pico+%2B+Sensors+Integration" alt="Typing SVG" />
+  </a>
 
-```xml
-<dependency>
-    <groupId>com.oracle.database.jdbc</groupId>
-    <artifactId>ojdbc8</artifactId>
-    <version>19.8.0.0</version>
-    <type>jar</type>
-</dependency>
-```
+  <br />
 
-## DB Creation Tutorial
+  <!-- Animated Train GIF -->
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Y5Y2ZicnkycmZnbnd0dDFpMmg5MHoweTN5bnhvbmZhZjMxcGpmdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKSx0OTIalS5fMI/giphy.gif" width="220px" alt="Cute Train GIF" />
 
-### Create Virtual Database
+  <h1>🚆 Railway Logistics & Station Management System</h1>
 
-Use the provided tutorial [Oracle Virtual Server Tutorial](documentation/db-scripts/Oracle-Virtual-Server-Tutorial.docx).
+  <p><i>A full-stack & hardware-integrated proof-of-concept for modern railway network operations.</i></p>
 
-### Create the New Database Schema
+  <!-- Badges -->
+  <img src="https://img.shields.io/badge/Methodology-SCRUM-a6e3a1?style=for-the-badge&logoColor=1e1e2e" />
+  <img src="https://img.shields.io/badge/Practices-TDD%20%26%20Agile-94e2d5?style=for-the-badge&logoColor=1e1e2e" />
+  <img src="https://img.shields.io/badge/Hardware-Raspberry%20Pi%20Pico-a6e3a1?style=for-the-badge&logoColor=1e1e2e" />
 
-Login with SQLDeveloper, with the following credentials:
+</div>
 
-    host: vsgate-s1.dei.isep.ipp.pt
-    port: 10522 (it may have a different number)
-    service: xepdb1
-    user: System
-    password: oracle
+<br />
 
-    url:jdbc:oracle:thin:@//vsgate-s1.dei.isep.ipp.pt:10522/xepdb1
+---
 
-To create the new Database schema use the following script 
-[Schema Create Script](documentation/db-scripts/schema-create-script.sql).
+### 📖 Overview
 
-Replace "LAPR3_G000" by your team ID and "mypassword" by the password you want to use.
+This project focuses on the analysis, design, and implementation of a computer-based solution to support logistics operations in railway networks. Developed as a comprehensive proof-of-concept, it covers key functional modules including **Warehouse Management**, **Freight Dispatching**, **Station Traffic Control**, and **Security**, integrating software architecture with physical hardware components.
 
-### Table Create Script 
+<br />
 
-Login with SQLDeveloper, with the following credentials:
+---
 
-    host: vsgate-s1.dei.isep.ipp.pt
-    port: 10522 (it may have a different number)
-    service: xepdb1
-    user: LAPR3_G000
-    password: mypassword
+### ✨ Core Achievements & Features
 
-    url:jdbc:oracle:thin:@//vsgate-s1.dei.isep.ipp.pt:10522/xepdb1
+#### 🛠️ Multi-Language & Agile Development
+* Developed through an iterative process using the **SCRUM methodology** across 3 Sprints.
+* Multi-tier implementation using **Java**, **PL/SQL**, and **C / Assembly**.
+* Followed **Test-Driven Development (TDD)** practices to ensure high code quality, reliability, and maintainability.
 
-Replace "LAPR3_G000" by your team ID and "mypassword" by the password you want to use.
+#### 🚉 Station Management System & Hardware Integration
+* Built a console-based station control system supporting multiple roles (*Administrator* and *Operator*).
+* Features **real-time track allocation**, **emergency handling**, and comprehensive **action logging**.
+* Integrated **Raspberry Pi Pico** sensors (temperature & humidity) and LED light signals to reflect live track states, complemented by a synoptic board for monitoring.
 
-To create the tables used by thus example, run the following script [Table Create Script](documentation/db-scripts/table-create-script.sql). 
+#### 🗄️ Databases & Advanced Data Structures
+* Relational database designed in **PL/SQL** modeling full railway logistics operations and user stories.
+* Efficient custom data structures implemented in **Java** (*Trees, Graphs, Hash-based structures*) to manage stations, route calculations, cargo, and users with optimized algorithmic performance.
 
-## Configure the database connection string on your Java App
+<br />
 
-Change the values in the [application.properties](src/main/resources/application.properties) file.
+---
+
+### 💻 Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,c,postgres,git,github,bash,linux&theme=dark" alt="Tech Stack" />
+</div>
+
+<br />
+
+---
+
+### ⚙️ System Architecture Highlights
+
+* **Software:** Java SE (Core domain logic & data structures), PL/SQL (Persistence & stored procedures), C/Assembly (Low-level hardware/sensor interactions).
+* **Hardware:** Raspberry Pi Pico + Environmental Sensors + LED Signals.
+* **Testing:** JUnit / TDD practices.
+
+<br />
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=a6e3a1&height=100&section=footer" width="100%" />
+</div>
